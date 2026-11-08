@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact & Order | Brew Haven Café</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+
+        <div class="logo">☕ Brew Haven</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Page Heading -->
+    <section class="page-heading">
+
+        <p>GET IN TOUCH</p>
+
+        <h1>Contact & Order</h1>
+
+        <h3>Have a question or craving something? Send us a message.</h3>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+
+        <!-- LEFT SIDE -->
+
+        <div class="contact-info">
+
+            <p class="small-title">VISIT US</p>
+
+            <h2>We'd love to hear from you.</h2>
+
+            <p class="contact-description">
+                Brew Haven is a fictional café created as an academic
+                website project. The contact information below is for
+                demonstration purposes only.
+            </p>
+
+
+            <div class="info-box">
+
+                <div class="info-icon">📍</div>
+
+                <div>
+                    <h3>Location</h3>
+                    <p>Dehradun, Uttarakhand, India</p>
+                </div>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <div class="info-icon">📞</div>
+
+                <div>
+                    <h3>Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <div class="info-icon">✉️</div>
+
+                <div>
+                    <h3>Email</h3>
+                    <p>hello@brewhavencafe.example</p>
+                </div>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <div class="info-icon">🕒</div>
+
+                <div>
+                    <h3>Opening Hours</h3>
+                    <p>Monday – Sunday</p>
+                    <p>9:00 AM – 10:00 PM</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT SIDE - ORDER FORM -->
+
+        <div class="form-container">
+
+            <h2>Place an Order</h2>
+
+            <p>
+                Fill in the details below. This form is for demonstration
+                purposes only and does not place a real order.
+            </p>
+
+
+            <form id="orderForm">
+
+
+                <label for="customerName">
+                    Your Name
+                </label>
+
+                <input
+    type="text"
+    id="customerName"
+    placeholder="Enter your name"
+    minlength="2"
+    maxlength="50"
+    required
+>
+
+
+                <label for="customerEmail">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="customerEmail"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="foodItem">
+                    Select Item
+                </label>
+
+                <select id="foodItem" required>
+
+                    <option value="">
+                        -- Choose an item --
+                    </option>
+
+                    <option value="Cappuccino">
+                        Cappuccino - ₹150
+                    </option>
+
+                    <option value="Cold Coffee">
+                        Cold Coffee - ₹180
+                    </option>
+
+                    <option value="Masala Tea">
+                        Masala Tea - ₹80
+                    </option>
+
+                    <option value="Veg Sandwich">
+                        Veg Sandwich - ₹120
+                    </option>
+
+                    <option value="White Sauce Pasta">
+                        White Sauce Pasta - ₹200
+                    </option>
+
+                    <option value="French Fries">
+                        French Fries - ₹110
+                    </option>
+
+                    <option value="Chocolate Brownie">
+                        Chocolate Brownie - ₹100
+                    </option>
+
+                    <option value="Butter Croissant">
+                        Butter Croissant - ₹90
+                    </option>
+
+                    <option value="Cheesecake">
+                        Cheesecake - ₹160
+                    </option>
+
+                </select>
+
+
+                <label for="quantity">
+                    Quantity
+                </label>
+
+                <input
+                    type="number"
+                    id="quantity"
+                    value="1"
+                    min="1"
+                    max="10"
+                    required
+                >
+
+
+                <label for="message">
+                    Special Instructions
+                </label>
+
+                <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Example: Less sugar, no onion, takeaway..."
+                ></textarea>
+
+
+                <button type="submit" class="order-button">
+                    Place Demo Order
+                </button>
+
+
+                <div id="formMessage"></div>
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Privacy Note -->
+
+    <section class="privacy-note">
+
+        <h2>🔒 Your Privacy Matters</h2>
+
+        <p>
+            This is a demonstration website. Information entered into
+            this form is not stored, transmitted or used for any real
+            transaction.
+        </p>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Brew Haven Café</h3>
+
+        <p>Dehradun, Uttarakhand</p>
+
+        <p>Academic Website Project</p>
+
+        <p>© 2026 Brew Haven Café</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
